@@ -11,9 +11,13 @@ class User extends HiveObject {
   @HiveField(2, defaultValue: '')
   String userMasterPassword;
 
+  @HiveField(3, defaultValue: false)
+  bool isBiometricOn;
+
   User({
     required this.id,
     this.userPin = '',
     this.userMasterPassword = '',
+    this.isBiometricOn = false,
   });
 }
