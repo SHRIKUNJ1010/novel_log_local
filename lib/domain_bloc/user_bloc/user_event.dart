@@ -1,3 +1,5 @@
+part of 'user_bloc.dart';
+
 abstract class UserEvent {}
 
 class CheckUserAndManageNavigation extends UserEvent {}
@@ -15,3 +17,5 @@ class ChangeCreateUserMasterPassword extends UserEvent {
 }
 
 class ChangeBiometricOption extends UserEvent {}
+
+class DeleteUser extends UserEvent {}
