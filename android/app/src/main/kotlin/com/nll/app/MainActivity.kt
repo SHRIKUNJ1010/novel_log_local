@@ -1,4 +1,4 @@
-package com.example.novel_log_local
+package com.nll.app
 
 import io.flutter.embedding.android.FlutterActivity
 
